@@ -13,7 +13,7 @@ library(gmailr)
 library(dplyr)
 
 
-setwd("C:/Users/bear/source/repos/KilnTimeBookingSystem/KilnTimeBookingSystem")
+
 source("helperFunctions.R")
 
 
