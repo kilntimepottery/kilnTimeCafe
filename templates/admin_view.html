@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin View</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5dc;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>All Booking</h1>
+    <table>
+        <tr>
+            <th>Booking ID</th>
+            <th>Customer Name</th>
+            <th>Customer Email</th>
+            <th>Number of Guests</th>
+            <th>Service</th>
+            <th>Booking Date</th>
+            <th>Table Size</th>
+        </th>
+        {% for booking in bookings %}
+        <tr>
+            <td>{{ booking.id }}</td>
+            <td>{{ booking.customer.name }}</td>
+            <td>{{ booking.customer.email }}</td>
+            <td>{{ booking.table.size }}</td>
+            <td>{{ booking.service }}</td>
+            <td>{{ booking.booking_date }}</td>
+            <td>{{ booking.table.size }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

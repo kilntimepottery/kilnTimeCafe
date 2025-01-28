@@ -1,0 +1,43 @@
+mlag fprn iojw bftn
+
+to do: 
+- add db resets into the code and then make sure it works 
+- spread out admin view to make it nicer
+- add cancel + contact customer features.
+
+
+class = tab-content
+class = nav nav-tabs shiny-tab-input shiny-bound-input 
+
+col-sm-3 -> smaller 
+h2 -> move down
+
+
+6pm liverpool friday CandleLight thing
+
+ref number: integer
+service: text
+date: text
+time: text
+customer_name: text
+email: text
+email: text
+guests: integer
+
+
+nav nav-tabs shiny-tab-input shiny-bound-inputs (make it span the entire page) 
+nav-item 
+
+btn btn-default
+
+'collapsible' boxes don't collapse. 
+
+change columns in DT output: customer_name = "Customer Name" 
+
+phone_number = "Phone Number" 
+
+hide the "showing 1 to 1 of 1 entries"? 
+
+
+
+Add automatic email feature to send the admin an email notification of the upcoming booking/event registration. 

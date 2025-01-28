@@ -1,0 +1,19 @@
+.content-wrapper, .right-side, .main-footer {
+  background-color: black ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-btn {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
+.service-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
