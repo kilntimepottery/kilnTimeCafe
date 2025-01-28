@@ -1,0 +1,6 @@
+build:
+  docker:
+    web: Dockerfile
+
+run:
+  web: bash -c 'Rscript init.R && R -e "shiny::runApp(port = as.numeric(Sys.getenv('PORT'))) "'
